@@ -3,6 +3,9 @@ package com.hankkin.taobaodetaildemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
+import android.widget.Toast;
+
+import com.whos.sa.entry.pending;
 
 /**
  * Created by ASUS on 2017/7/30.
@@ -28,10 +31,11 @@ public class New extends AppCompatActivity {
 
 
 
-//        pending t = new pending();
-//        t.set("好");
-//        int m = t.getresult();
-//        Toast.makeText(New.this,m,Toast.LENGTH_SHORT).show();
+        pending t = new pending();
+        t.set("好");
+        int m = t.getresult();
+        //Log.v("hh", String.valueOf(m));
+        Toast.makeText(getApplicationContext(),String.valueOf(m), Toast.LENGTH_SHORT).show();
 
         new Thread(new Runnable() {
             @Override
