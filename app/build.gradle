@@ -33,12 +33,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.jakewharton:butterknife:7.0.1'
     compile 'com.joanzapata.android:base-adapter-helper:1.1.11'
-    compile project(':library')
-    compile files('libs/dom4j-1.6.1.jar')
-    compile files('libs/ehcache-2.9.0.jar')
-    compile files('libs/log4j-1.2.17.jar')
-    compile files('libs/mmseg4j-core-1.10.0.jar')
-    compile files('libs/semantic.jar')
-    compile files('libs/slf4j-api-1.7.9.jar')
-    compile files('libs/slf4j-log4j12-1.7.9.jar')
+    compile 'com.github.PhilJay:MPAndroidChart:v2.1.6'
 }
