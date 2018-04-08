@@ -31,5 +31,20 @@
         android:layout_height="320dip"
         android:layout_gravity="center_horizontal" />
 
+    <TextView
+        android:text="关键词"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hankkin.taobaodetaildemo.TagGroup
+        android:id="@+id/tag_group"
+        style="@style/TagGroup.Large"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
